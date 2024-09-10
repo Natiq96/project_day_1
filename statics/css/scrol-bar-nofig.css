@@ -1,0 +1,23 @@
+
+/* Ümumi scrollbar tərzi */
+::-webkit-scrollbar {
+    width: .7rem; /* Scrollbarın eni */
+  }
+  
+  /* Scrollbarın arxa fonu */
+  ::-webkit-scrollbar-track {
+    background: rgb(186, 199, 227); /* Track (yol) arxa fon rəngi */
+    /* border-radius: 10px; Trackin künclərinin yumşaldılması */
+  }
+  
+  /* Scrollbarın tutacağı */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(56, 59, 67); /* Tutacaq rəngi */
+    border-radius: 10px; /* Tutacağın künclərinin yumşaldılması */
+  }
+  
+  /* Scrollbarın tutacağı hover effekti */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(45, 48, 55); /* Hover vəziyyətində tutacaq rəngi */
+  }
+  

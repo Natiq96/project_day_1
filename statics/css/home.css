@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body, .container{
+    background-color: rgb(56 59 67);
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: .2rem solid rgb(186 199 227);
+}
+
+.nav_container{
+    width: 71rem;
+    height: 6rem;
+    /* background-color: rgb(48, 48, 124); */
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 14rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* border: .1rem solid #FFCF5E; */
+}
+
+.left p{
+    font-size: 1.5rem;
+    color: rgb(186 199 227);
+    /* color: #ffcf5e; */
+}
+
+.right{
+    width: 56.5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+button{
+    width: auto;
+    height: 2rem;
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(56 59 67);
+    font-size: 1.1rem;
+    background-color: rgb(186 199 227);
+    /* background-color: #ffcf5e; */
+    padding: .4rem;
+    border-radius: 1rem;
+}
+
+#login{
+    margin: 0;
+}
+
+/*       -------------------------                */
+
+.body{
+    width: 100%;
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.body_container{
+    width: 71rem;
+    height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(186 199 227);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.head{
+    width: 71rem;
+    height: 5rem;
+    border-bottom: .2rem solid rgb(56 59 67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head p{
+    font-size: 1.5rem;
+    color: rgb(56 59 67);
+}
+
+.about{
+    width: 71rem;
+    height:40rem;
+    padding: 2rem;
+}
+
+.about p{
+    font-size: 1.3rem;
+}
+
+ul li{
+    margin-left: 7rem;
+    font-size: 1.1rem;
+}
+
+/*                                            */
+
